@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+    <link rel="stylesheet" href="./main.css" />
+
+</head>
+<body>
+    <div class="container">
+        <h1>Validação</h1>
+        <form id="formValidation">
+            <div class="form-group">
+                <label for="NumeroA">Primeiro valor</label>
+                <input type="number" id="NumeroA" required>
+            </div>
+            <div class="form-group">
+                <label for="NumeroB">Segundo valor</label>
+                <input type="number" id="NumeroB" required>
+            </div>
+                <button type="submit">Fazer a validação</button>
+            <div id="message" class="message"></div>
+        </form>
+    </div>
+    
+<script src="./main.js"></script>
+</body>
+</html>
